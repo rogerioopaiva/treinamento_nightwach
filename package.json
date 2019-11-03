@@ -1,0 +1,21 @@
+{
+  "name": "zombieplus",
+  "version": "1.0.0",
+  "description": "projeto de testes automatizados com nightwatch",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/nightwatch"
+  },
+  "keywords": [
+    "qaninja",
+    "nodejs",
+    "webdriver",
+    "nightwatch"
+  ],
+  "author": "Rogério Paiva",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^78.0.1",
+    "nightwatch": "^1.2.4"
+  }
+}
