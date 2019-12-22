@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="3">
 
   <testsuite name="login.test"
     errors="0" failures="0" hostname="" id="" package="login.test" skipped="0"
-    tests="1" time="2.555" timestamp="">
+    tests="3" time="2.914" timestamp="">
   
-    <testcase name="login com sucesso" classname="login.test" time="2.555" assertions="3">
+    <testcase name="dado que eu acesse a pagina de login" classname="login.test" time="1.693" assertions="1">
 
     
+    </testcase>
+  
+    <testcase name="quando eu faço login com sucesso" classname="login.test" time="0.5300" assertions="0">
+    </testcase>
+  
+    <testcase name="então devo ver o seu nome na área logada" classname="login.test" time="0.6910" assertions="2">
 
     
 
